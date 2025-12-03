@@ -16,7 +16,7 @@ public class ObjectSpawner : MonoBehaviour
     }
 
     void SpawnObjects(){
-        for (int i = 0; i < 3; i++){
+        for (int i = 0; i < 1; i++){
             gameObjects.Add(Instantiate(cubePrefab, GetNewPos(i), Quaternion.identity));
         }
     }
@@ -41,3 +41,4 @@ public class ObjectSpawner : MonoBehaviour
         
     }
 }
+
